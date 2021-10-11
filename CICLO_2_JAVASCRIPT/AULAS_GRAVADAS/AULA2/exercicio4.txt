@@ -1,0 +1,6 @@
+1. O que são variáveis em uma linguagem de programação?
+    RESP.: Uma variáveis é um locação reservado em memória para guardar algum 
+    tipo de dado
+2. Dê um exemplo de um tipo de dado e o que este tipo irá representar.
+    RESP.: Um exemplo é o tipo String que representa uma cadeia de caracter ou seja 
+    um conjunto de letra ou palavras.

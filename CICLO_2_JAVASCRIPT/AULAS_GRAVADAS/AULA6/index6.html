@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 6</title>
+</head>
+<script>
+    // var qualquer; //global
+    // let qq= "variavel let"; //global
+    // const valorConstante = 100; //global constante
+    
+//FUNCÃO LITERAL
+
+function concatenarNome(){
+    let nome = "Edmilson";
+    let sobreNome = " Gonzaga";
+    alert(nome+ sobreNome);
+}
+//concatenarNome();
+function novaConcatenarNome(nome, sobrenome){
+    document.write(nome," ",sobrenome);
+}
+novaConcatenarNome("Edmilson", "Gonzaga");
+
+//FUNÇÃO ANONIMA
+
+let semnome = function(){
+    alert("Estou em uma função anônima");
+}
+//semnome();
+
+let funIdade = function(idade, idadepar){
+    if(idade > idadepar){
+        alert("Você tem idade maior que "+idadepar);
+    }else{
+        alert("Você tem idade menor que "+idadepar);
+    }
+}
+funIdade(31, 18);
+funIdade(16, 18);
+
+                        //CONTINUIÇÃO NA AULA 7
+</script>
+<body>
+    
+</body>
+</html>

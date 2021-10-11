@@ -1,0 +1,13 @@
+1. Criar um array de uma lista de nomes com o mínimo de 5 elementos; 
+2. Criar função que receberá: 
+	→   3 parâmetros; um parâmetro será para enviar o array, o segundo 
+    parâmetros será para enviar um novo nome para o array, que deverá ser 
+    inserido na lista de nomes. O terceiro parâmetro será enviado um número inteiro, 
+    que servirá de índice para que seja 
+    impresso no console um determinado nome que está na lista  
+
+
+A saída da função deverá ser: 
+Quantidade de elementos do array…: 6
+Você escolheu o índice 2 que é o elemento Mariana
+A quantidade atual de elementos do array é de..: 7

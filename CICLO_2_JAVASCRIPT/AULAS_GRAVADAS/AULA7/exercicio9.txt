@@ -1,0 +1,15 @@
+1. Qual é a diferença entre as declarações de variáveis var, let e const? 
+A principal diferença é o escopo onde elas são declaradas.
+    RESP.: A diferença é o escopo onde elas são declaradas, tanto a let como a const e a var
+    são considerada variais globais e uma diferença que a variavel let respeita o limite do 
+    escopo local quanto a variavel var estoura esse limite e a variavel const como o nome 
+    ja sugeri ela é constante, ou seja, o seu valor não pode ser auterado.
+
+2. É verdade que o uso de parâmetros em funções é obrigatório? 
+    Não é verdade, você pode criar funçães tanto com ou sem parâmetros.
+
+3. Selecione a opção verdadeira para inserir um arquivo js em um documento HTML:
+a) <link src=”nomeDoArquivo.js”></link>
+b) <meta src=”nomeDoArquivo.js”></meta>
+C) <script src=”nomeDoArquivo.js”></script> X
+d) <a href=”nomeDoArquivo.js”></a>   

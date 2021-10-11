@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 5</title>
+</head>
+<script>
+    // var nome = "Edmilson";
+
+    // alert("Olá Mundo");
+    // alert("Bom dia " + nome);
+    // prompt("Digite alguma coisa");
+    // confirm("clique algum botão");
+
+    // var nome = prompt("Digite seu nome: ");
+    // var cor = prompt("Digite a sua cor favorita: " + nome);
+
+    // document.write("Nome: " + nome + "<br>");
+    // document.write("A cor favorita do " + nome + " é " + cor + "<br>")
+
+    // var verdfalso = confirm("Click em um botão");
+
+    // if(confirm("clique e um botão")){
+    //     alert("Você clicou realmente no Ok");
+    //     document.write("Você clicou no OK");
+    // }else{
+    //     console.log("Você clicou no cancelar");
+    // }
+
+    var opcao = prompt("Digite a opção 1 ou 2: ");
+
+    switch (opcao){
+        case '1':
+            var pergunta = confirm("Você pretende continuar a operação");
+            if(pergunta){
+                alert("Parabéns por continuar");    
+            }else{
+                alert("Que pena, você estava ficando bom");
+            }
+        break;
+        case '2':
+            var pergunta = confirm("Você é casado");
+            if(pergunta){
+                var conj = prompt("Qual o nome do seu conjuge:");
+                alert("Parabén você é casado com a(o): " + conj);
+            }else {
+                alert("Parabéns vc é solteiro");
+            }
+        break;
+        default: alert("Opção invalida!!");
+        break;
+    }
+</script>
+<body>
+    
+</body>
+</html>

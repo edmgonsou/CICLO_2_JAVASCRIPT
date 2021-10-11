@@ -1,0 +1,7 @@
+1. Crie uma função que irá pedir "use o prompt": a altura, o peso e o nome. Esta função
+    deverá calcular o índice de IMC (fórmula peso divido pelo dobro da altura). A função
+    deverá apresentar os resultados escrito em uma página HTML. Exemplo:
+    Nome: Fulano
+    Altura: 1.80
+    Peso: 90
+    IMC: 27.80

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 4</title>
+</head>
+<Script>
+//Estrutura if
+    var ano = 2023;
+
+    // if (ano==2021){
+    //     console.log("Este é o ano atual 2021");
+    // }
+    if ( ano >= 2022){
+        if (ano > 2022){
+            console.log("O ano é MAIOR que 2022");
+        }else{
+            console.log("O ano é IGUAL a 2022");
+        }
+        
+    }else{
+        console.log("O ano não é MENOR a 2022");
+    }
+
+//Estrutura ou OR ||
+    var a = 0;
+    var b = 0;
+    var c = 0;
+
+    if (a==2 || b==2 || c==2){
+        console.log("Estou no primeiro fluxo");
+    }else{
+        console.log("Estou no segundo fluxo");
+    }
+
+//Estrutura e and &&
+    var x = 0;
+    var y = 3;
+
+    if (x==3 && y==3){
+        console.log("Estou no primeiro fluxo do AND");
+    }else{
+        console.log("Estou no segundo fluxo do AND");
+    }
+
+    if (x!=y){
+        console.log("X é diferente de Y");
+    }else{
+        console.log("X é igual a Y");
+    }
+
+//Estrutura switch
+
+    x = 5;
+
+    switch(x){
+        case 1: console.log("Executando a tarefa 1");
+        break;
+        case 2: console.log("Executando a tarefa 2");
+        break;
+        case 5:
+            var r = 3;
+            var result = x + r;
+            console.log(result);
+            if (result > 3){
+                console.log("Valor aceitável")
+            }else{
+                console.log("valor não aceitável")
+            }
+        break;
+        case 8: console.log("Executando a tarefa 3");
+        break;
+        default: console.log("Essa opção não exite");
+        break;
+    }
+
+    console.log("fim do arquivo")
+
+</Script>
+<body>
+    
+</body>
+</html>
